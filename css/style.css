@@ -1,0 +1,148 @@
+li {
+    width: 100%;
+    clear: both;
+}
+ul.amounts {
+    width: 100%;
+    list-style-type: none;
+}
+h4.price-caption {
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+div#donate-amt {
+    padding: 10px 0;
+}
+.price-explain {
+    display: none;
+}
+.donate-icon {
+    display: none;
+}
+.price-box {
+    background: #e1e1e1;
+    border-radius: 3px;
+    margin: 0 0 30px;
+    padding: 5px;
+    text-align: center;
+    cursor: pointer;
+    height: 100px;
+}
+.price {
+    font-size: 1.5em;
+}
+/*.price-box.selected {
+    border-radius: 3px 90% 90% 3px;
+}*/
+[id='100'].price-box.selected{
+	background: #00b7c4;
+	color: #fff;
+}
+[id='150'].price-box.selected{
+	background: #f9a54f;
+	color: #fff;
+}
+[id='200'].price-box.selected{
+	background: #474C56;
+	color: #fff;
+}
+[id='500'].price-box.selected{
+	background: #F47721;
+	color: #fff;
+}
+[id='2000'].price-box.selected{
+	background: #797d83;
+	color: #fff;
+}
+[id='5000'].price-box.selected{
+	background: #00b7c4;
+	color: #fff;
+}
+input#donate-amount {
+    font-size: 72px;
+    height: 86px;
+    width: 100%;
+    padding: 5px 0 0 35px;
+    margin: 0 0 20px 0;
+}
+label#donate-amount-label {
+    font-size: 24px;
+}
+input#donate-now {
+    padding: 20px 40px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #000;
+    background-color: #e1e1e1;
+    border-style: none;
+}
+
+form#give-money-donate-form._100 input#donate-amount{
+	color: #00b7c4;
+}
+form#give-money-donate-form._100 label#donate-amount-label {
+    color: #00b7c4;
+}
+
+form#give-money-donate-form._100 input#donate-now {
+    background-color: #00b7c4;
+    color: #fff;
+}
+form#give-money-donate-form._150 input#donate-amount{
+	color: #f9a54f;
+}
+form#give-money-donate-form._150 label#donate-amount-label {
+    color: #f9a54f;
+}
+
+form#give-money-donate-form._150 input#donate-now {
+    background-color: #f9a54f;
+    color: #fff;
+}
+form#give-money-donate-form._200 input#donate-amount{
+	color: #474C56;
+}
+form#give-money-donate-form._200 label#donate-amount-label {
+    color: #474C56;
+}
+
+form#give-money-donate-form._200 input#donate-now {
+    background-color: #474C56;
+    color: #fff;
+}
+form#give-money-donate-form._500 input#donate-amount{
+	color: #F47721;
+}
+form#give-money-donate-form._500 label#donate-amount-label {
+    color: #F47721;
+}
+
+form#give-money-donate-form._500 input#donate-now {
+    background-color: #F47721;
+    color: #fff;
+}
+form#give-money-donate-form._2000 input#donate-amount{
+	color: #797d83;
+}
+form#give-money-donate-form._2000 label#donate-amount-label {
+    color: #797d83;
+}
+
+form#give-money-donate-form._2000 input#donate-now {
+    background-color: #797d83;
+    color: #fff;
+}
+form#give-money-donate-form._5000 input#donate-amount{
+	color: #00b7c4;
+}
+form#give-money-donate-form._5000 label#donate-amount-label {
+    color: #00b7c4;
+}
+
+form#give-money-donate-form._5000 input#donate-now {
+    background-color: #00b7c4;
+    color: #fff;
+}
